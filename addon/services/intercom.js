@@ -9,10 +9,6 @@ export default Ember.Service.extend({
     Intercom('update', params);
   },
   
-  shutdown() {
-    Intercom('shutdown');
-  },
-  
   show() {
     Intercom('show');
   },
